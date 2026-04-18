@@ -1,0 +1,7 @@
+Running: xsim.dir/not_gate_behav/xsimk -simmode gui -wdb not_gate_behav.wdb -simrunnum 0 -socket 51157
+Design successfully loaded
+Design Loading Memory Usage: 201628 KB (Peak: 201680 KB)
+Design Loading CPU Usage: 1820 ms
+Simulation completed
+Simulation Memory Usage: 283364 KB (Peak: 340896 KB)
+Simulation CPU Usage: 1830 ms
