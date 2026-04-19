@@ -10,16 +10,16 @@ architecture Behavioral of t_ff_tb is
             clk : in  STD_LOGIC;
             rst : in  STD_LOGIC;
             t : in  STD_LOGIC;
-            q : out  STD_LOGIC;
-            not_q : out STD_LOGIC
+            q_t : out  STD_LOGIC;
+            not_q_t : out STD_LOGIC
         );
     end component;
 
     signal clk_tb : STD_LOGIC := '0';
     signal rst_tb : STD_LOGIC := '0';
     signal t_tb : STD_LOGIC := '0';
-    signal q_tb : STD_LOGIC;
-    signal not_q_tb : STD_LOGIC;
+    signal q_t_tb : STD_LOGIC;
+    signal not_q_t_tb : STD_LOGIC;
 
 begin
 
@@ -27,8 +27,8 @@ begin
         clk => clk_tb,
         rst => rst_tb,
         t => t_tb,
-        q => q_tb,
-        not_q => not_q_tb
+        q_t => q_t_tb,
+        not_q_t => not_q_t_tb
     );
 
     clk_proc: process
