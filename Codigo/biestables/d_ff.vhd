@@ -1,23 +1,39 @@
-library ieee;
-use ieee.std_logic_1164.all;
+library IEEE;
+use IEEE.std_logic_1164.all;
 
 entity d_ff is
-    port(
-        clk : in  std_logic;
-        rst : in  std_logic; -- asynchronous active-high reset
-        d   : in  std_logic;
-        q   : out std_logic
+    Port (
+        clk : in std_logic;
+        rst : in std_logic;
+        d : in std_logic;
+        q_d : out std_logic;
+        not_q_d : out std_logic
     );
-end entity d_ff;
+end d_ff;
 
-architecture rtl of d_ff is
+architecture behavioral of d_ff is
+    
+    signal q_d_reg : std_logic;
+
 begin
-    process(clk, rst)
+    process(rst, clk)
     begin
         if rst = '1' then
-            q <= '0';
+            q_d_reg <= '0';
+
         elsif rising_edge(clk) then
-            q <= d;
+            if d = '1' then
+                q_d_reg <= '1';
+
+            else
+                q_d_reg <= '0';
+            
+            end if; 
         end if;
     end process;
-end architecture rtl;
+    
+    q_d <= q_d_reg;
+    not_q_d <= not q_d_reg;
+
+end behavioral;
+        
