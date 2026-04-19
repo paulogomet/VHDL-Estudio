@@ -23,7 +23,7 @@ end Behavioral;
 architecture DataFlow of xnor_gate is 
 begin
     
-    Z <= A_xnor xnor B_xnor;
+    Z_xnor <= A_xnor xnor B_xnor;
 
 end DataFlow;
 
