@@ -12,8 +12,8 @@ entity d_ff is
 end d_ff;
 
 architecture behavioral of d_ff is
-    
-    signal q_d_reg : std_logic;
+
+    signal q_d_reg : std_logic := '0';
 
 begin
     process(rst, clk)
@@ -22,13 +22,8 @@ begin
             q_d_reg <= '0';
 
         elsif rising_edge(clk) then
-            if d = '1' then
-                q_d_reg <= '1';
-
-            else
-                q_d_reg <= '0';
+            q_d_reg <= d;
             
-            end if; 
         end if;
     end process;
     
