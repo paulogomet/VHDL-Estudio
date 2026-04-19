@@ -3,24 +3,56 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity and_gate is
     port(
-        A : in STD_LOGIC;
-        B : in STD_LOGIC;
-        Z : out STD_LOGIC
+        A_and : in STD_LOGIC;
+        B_and : in STD_LOGIC;
+        Z_and : out STD_LOGIC
     );
 end and_gate;
 
+
+
 architecture Behavioral of and_gate is
 begin 
-    process (A, B) begin
-        if A = '1' and B = '1'
-            then Z <= '1';
+    process (A_and, B_and) begin
+        if A_and = '1' and B_and = '1'
+            then Z_and <= '1';
         else 
-            Z <= '0';
+            Z_and <= '0';
         end if;
     end process;
 end Behavioral;
 
+
+
 architecture DataFlow of and_gate is
 begin
-    Z <= A and B;
+    Z_and <= A_and and B_and;
 end DataFlow;
+
+
+
+architecture Structural of and_gate is
+    component nand_gate is 
+        Port(
+            A : in STD_LOGIC;
+            B : in STD_LOGIC;
+            Z : out STD_LOGIC
+        );
+    end component;
+
+    signal s1 : STD_LOGIC;
+
+begin
+    U1: nand_gate port map(
+        A => A_and,
+        B => B_and,
+        Z => s1
+    );
+
+    U2: nand_gate port map(
+        A => s1,
+        B => s1,
+        Z => Z_and
+    );
+
+end Structural;
