@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "or_gate_tb_behav" "xil_defaultlib.or_gate_tb" -log "elaborate.log" 

@@ -2,7 +2,15 @@
 2020.2
 Nov 14 2025
 12:36:23
-/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate.vhd,1776611625,vhdl,/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate_tb.vhd,,,and_gate,,,,,,,,
-/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate_tb.vhd,1776613294,vhdl,,,,and_gate_tb,,,,,,,,
-/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/nand_gate.vhd,1776514960,vhdl,,,,nand_gate,,,,,,,,
-/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/not_gate.vhd,1776521850,vhdl,,,,not_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas/and_gate.vhd,1776615823,vhdl,,,,and_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas/nand_gate.vhd,1776615471,vhdl,,,,nand_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas/nor_gate.vhd,1776615867,vhdl,,,,nor_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas/or_gate.vhd,1776615905,vhdl,,,,or_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas/xnor_gate.vhd,1776615948,vhdl,,,,xnor_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas/xor_gate.vhd,1776615986,vhdl,,,,xor_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas_tb/and_gate_tb.vhd,1776614846,vhdl,,,,and_gate_tb,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas_tb/nand_gate_tb.vhd,1776615068,vhdl,,,,nand_gate_tb,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas_tb/nor_gate_tb.vhd,1776615108,vhdl,,,,nor_gate_tb,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas_tb/or_gate_tb.vhd,1776614312,vhdl,,,,or_gate_tb,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas_tb/xnor_gate_tb.vhd,1776615212,vhdl,,,,xnor_gate_tb,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas_tb/xor_gate_tb.vhd,1776615143,vhdl,,,,xor_gate_tb,,,,,,,,
