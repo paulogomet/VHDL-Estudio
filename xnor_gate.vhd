@@ -9,6 +9,24 @@ entity xnor_gate is
     );
 end xnor_gate;
 
+architecture Behavioral of xnor_gate is
+begin
+    process(A_xnor, B_xnor) begin
+        if (A_xnor = '0' and B_xnor = '0') or (A_xnor = '1' and B_xnor = '1')
+            then Z_xnor <= '1';
+        else
+            Z_xnor <= '0';
+        end if;
+    end process;
+end Behavioral;
+
+architecture DataFlow of xnor_gate is 
+begin
+    
+    Z <= A_xnor xnor B_xnor;
+
+end DataFlow;
+
 architecture Structural of xnor_gate is
     component nand_gate is
         Port(
