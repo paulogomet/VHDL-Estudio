@@ -2,3 +2,6 @@ Running: xsim.dir/nand_gate_tb_behav/xsimk -simmode gui -wdb nand_gate_tb_behav.
 Design successfully loaded
 Design Loading Memory Usage: 201628 KB (Peak: 201680 KB)
 Design Loading CPU Usage: 1550 ms
+Simulation completed
+Simulation Memory Usage: 283364 KB (Peak: 340896 KB)
+Simulation CPU Usage: 1550 ms

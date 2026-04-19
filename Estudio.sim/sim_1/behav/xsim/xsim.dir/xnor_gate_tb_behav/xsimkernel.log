@@ -2,3 +2,6 @@ Running: xsim.dir/xnor_gate_tb_behav/xsimk -simmode gui -wdb xnor_gate_tb_behav.
 Design successfully loaded
 Design Loading Memory Usage: 201632 KB (Peak: 201684 KB)
 Design Loading CPU Usage: 1620 ms
+Simulation completed
+Simulation Memory Usage: 283368 KB (Peak: 340900 KB)
+Simulation CPU Usage: 1630 ms

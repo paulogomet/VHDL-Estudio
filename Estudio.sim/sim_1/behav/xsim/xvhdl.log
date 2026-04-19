@@ -1,4 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas/xor_gate.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'xor_gate'
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Estudio_puertas_logicas_tb/xor_gate_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'xor_gate_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Codigo/biestables/t_ff.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 't_ff'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/Codigo/biestables_tb/t_ff_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 't_ff_tb'
