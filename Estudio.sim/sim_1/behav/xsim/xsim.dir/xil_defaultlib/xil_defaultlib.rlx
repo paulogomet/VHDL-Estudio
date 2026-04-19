@@ -2,4 +2,7 @@
 2020.2
 Nov 14 2025
 12:36:23
-/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/not_gate.vhd,1776192842,vhdl,,,,not_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate.vhd,1776611625,vhdl,/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate_tb.vhd,,,and_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate_tb.vhd,1776613294,vhdl,,,,and_gate_tb,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/nand_gate.vhd,1776514960,vhdl,,,,nand_gate,,,,,,,,
+/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/not_gate.vhd,1776521850,vhdl,,,,not_gate,,,,,,,,

@@ -1,2 +1,5 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/not_gate.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'not_gate'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'and_gate'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'and_gate_tb'
+WARNING: [VRFC 10-3608] overwriting existing secondary unit 'behavioral' [/home/pablo/Documents/Universidad/ing_computadores/3o/3o_2cuatri/PHR/Estudio/and_gate_tb.vhd:8]

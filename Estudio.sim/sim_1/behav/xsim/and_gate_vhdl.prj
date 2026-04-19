@@ -1,6 +1,8 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../not_gate.vhd" \
+"../../../../and_gate.vhd" \
+"../../../../nand_gate.vhd" \
+"../../../../and_gate_tb.vhd" \
 
 # Do not sort compile order
 nosort

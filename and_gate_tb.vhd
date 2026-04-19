@@ -10,7 +10,7 @@ architecture Behavioral of and_gate is
         Port (
             A_and : in STD_LOGIC;
             B_and : in STD_LOGIC;
-            Z_and : out STD_LOGIC;
+            Z_and : out STD_LOGIC
         );
     end component;
 
@@ -48,4 +48,4 @@ begin
 
     end process;
 
-end Behavioral
+end Behavioral;
