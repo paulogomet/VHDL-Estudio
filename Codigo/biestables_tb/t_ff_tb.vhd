@@ -7,8 +7,9 @@ end t_ff_tb;
 architecture Behavioral of t_ff_tb is
     component t_ff is
         Port ( 
-            clk : in  STD_LOGIC;
-            rst : in  STD_LOGIC;
+            clk_t : in  STD_LOGIC;
+            clr_t : in  STD_LOGIC;
+            set_t : in STD_LOGIC;
             t : in  STD_LOGIC;
             q_t : out  STD_LOGIC;
             not_q_t : out STD_LOGIC
@@ -16,7 +17,8 @@ architecture Behavioral of t_ff_tb is
     end component;
 
     signal clk_tb : STD_LOGIC := '0';
-    signal rst_tb : STD_LOGIC := '0';
+    signal clr_tb : STD_LOGIC := '0';
+    signal set_tb : STD_LOGIC := '0';
     signal t_tb : STD_LOGIC := '0';
     signal q_t_tb : STD_LOGIC;
     signal not_q_t_tb : STD_LOGIC;
@@ -24,8 +26,9 @@ architecture Behavioral of t_ff_tb is
 begin
 
     U1: t_ff port map (
-        clk => clk_tb,
-        rst => rst_tb,
+        clk_t => clk_tb,
+        clr_t => clr_tb,
+        set_t => set_tb,
         t => t_tb,
         q_t => q_t_tb,
         not_q_t => not_q_t_tb
@@ -41,8 +44,12 @@ begin
 
     stim_proc: process
     begin
-        rst_tb <= '1'; wait for 20 ns;
-        rst_tb <= '0'; wait for 10 ns;
+
+        set_tb <= '1'; wait for 20 ns;
+        set_tb <= '0'; wait for 20 ns;
+
+        clr_tb <= '1'; wait for 20 ns;
+        clr_tb <= '0'; wait for 10 ns;
 
         -- no toggle period
         t_tb <= '0'; wait for 40 ns;
@@ -59,11 +66,11 @@ begin
         t_tb <= '1'; wait for 40 ns;
 
         -- apply async reset during operation
-        rst_tb <= '1'; wait for 12 ns;
-        rst_tb <= '0'; wait for 20 ns;
+        clr_tb <= '1'; wait for 12 ns;
+        clr_tb <= '0'; wait for 20 ns;
 
         wait for 40 ns;
-        assert true report "Simulaci�n finalizada" severity note;
+        assert true report "Simulacion finalizada" severity note;
         wait;
     
     end process;

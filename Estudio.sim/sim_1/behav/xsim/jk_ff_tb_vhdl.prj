@@ -1,7 +1,7 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../Codigo/biestables/t_ff.vhd" \
-"../../../../Codigo/biestables_tb/t_ff_tb.vhd" \
+"../../../../Codigo/biestables/jk_ff.vhd" \
+"../../../../Codigo/biestables_tb/jk_ff_tb.vhd" \
 
 # Do not sort compile order
 nosort
